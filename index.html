@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hariselva Vignesh S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h3>I'M</h3>
+            <h1 class="glow">Hariselva Vignesh S</h1>
+            <p class="typing-effect">App Developer<span class="cursor"></span></p>
+            <button class="download-btn">Download RESUME</button>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hariselvavignesh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HariselvaVignesh" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/hariselva_vignesh?igsh=MW81Z3FkbjFtaHljZw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/HariSelvaVignes?t=4705lddzRj3Vk4JkDoXgUg&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/share/14pTkRmiQV/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/Photo-removebg-preview.png" alt="Hariselva Vignesh S">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate Android Developer with hands-on experience in Java, Android Studio, OpenWeather API, and AI/ML. Skilled in building real-time applications and chatbot development. Strong understanding of Generative AI, Java-based ML libraries (Weka, Smile), and API integration.</p>
+        
+        <div class="tab-container">
+            <span class="tab-btn active" data-target="skills-content">Skills</span>
+            <span class="tab-btn" data-target="experience-content">Experience</span>
+            <span class="tab-btn" data-target="education-content">Education</span>
+        </div>
+    
+        <div id="skills-content" class="tab-content active">
+            <h3>Java</h3>
+            <h3>MySQL</h3>
+            <h3>HTML/CSS</h3>
+            <h3>Power BI</h3>
+            <h3>App Development</h3>
+            <h3>Excel</h3>
+        </div>
+    
+        <div id="experience-content" class="tab-content">
+            <h3>Java Intern At Internpe</h3>
+            <p>In that Internship i learned how to do project with Java Programming</p>
+            <h3>Web Developer Intern At Micro Info Tech</h3>
+            <p>In that Internship i learned Html,Css and how to create Websites with Html,Css</p>
+        </div>
+    
+        <div id="education-content" class="tab-content">
+            <h3>Bachelor's in Computer Science and Engineering</h3>
+            <p>SNS College Of Technology-Coimbatore</p>
+            <p>GPA-8.10</p>
+            <h3>HSC AND SSLC</h3>
+            <p>Sri RamaKrishna Matriculation Higher Secondary School-Alangulam,Tenkasi</p>
+            <p>HSC-88%</p>
+            <p>SSLC-87%</p>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <!-- App Developer -->
+            <div class="service-card highlight">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>App Developer</h3>
+                <p>🚀 Passionate Android Developer with expertise in Java and real-time applications.
+                    Experienced in building user-friendly, high-performance mobile applications.
+                    Integrated AI-based chatbot and real-time weather monitoring in apps.
+                    Skilled in API integration, Firebase, and database management.
+                    Always learning and experimenting with the latest mobile technologies.</p>
+            </div>
+    
+            <!-- Web Designer -->
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Designer</h3>
+                <p>🌐 Frontend & Backend Web Developer with a strong focus on responsive design.
+                    Proficient in HTML, CSS and backend technologies.
+                    Experienced in building interactive and dynamic websites.
+                    Worked on portfolio sites, real-time dashboards, and web applications.
+                    Passionate about clean code, performance, and security.</p>
+            </div>
+    
+            <!-- Programming Tutor -->
+            <div class="service-card">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Programming Tutor</h3>
+                <p>📚 Enthusiastic Mentor guiding students in Java, Data Structures, and Algorithms.
+                    Strong foundation in problem-solving and competitive programming.
+                    Helped beginners understand core programming concepts with hands-on projects.
+                    Specialized in Java, Android Development, and full-stack web development.
+                    Focused on practical learning and industry-relevant skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Library Management System Card -->
+            <div class="project-card">
+                <h3>Library Management System</h3>
+                <div class="image-gallery">
+                    <div class="gallery-slider">
+                        <img src="images/library1.jpg" alt="Library Image 1" class="active">
+                        <img src="images/library2.jpg" alt="Library Image 2">
+                        <img src="images/library3.jpg" alt="Library Image 3">
+                    </div>
+                </div>
+                <a href="#" class="learn-more">Learn more</a>
+            </div>
+            
+    
+            <!-- Chatbot Card -->
+            <div class="project-card">
+                <h3>Chatbot</h3>
+                <div class="image-gallery">
+                    <div class="gallery-slider">
+                        <img src="images/chatbot1.jpg" alt="Chatbot Image 1" class="active">
+                        <img src="images/chatbot2.jpg" alt="Chatbot Image 2">
+                        <img src="images/chatbot3.jpg" alt="Chatbot Image 3">
+                    </div>
+                </div>
+                <a href="#" class="learn-more">Learn more</a>
+            </div>
+        </div>
+
+        <!-- Modal for enlarged image -->
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="enlarged-image">
+            <i class="fas fa-chevron-right next-icon"></i>
+        </div>
+
+        <!-- Project Description Modal -->
+        <div class="project-modal">
+            <span class="close">&times;</span>
+            <div class="project-modal-content">
+                <h3 id="project-title"></h3>
+                <p id="project-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <p>If you have any queries or want to connect, feel free to send a message!</p>
+            <form class="contact-form" action="https://formspree.io/f/xovjkawv" method="POST">
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone"><i class="fas fa-phone"></i> Your Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment"></i> Your Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
